@@ -49,7 +49,7 @@ public class ProjCarrinho {
                 System.out.println("1. Adicionar um novo produto");
                 System.out.println("2. Pesquisar por um produto");
                 System.out.println("3. Remover um produto");
-                System.out.println("4. Sair");
+                System.out.println("9999. Sair");
                 System.out.print("Opção: ");
                 g_opcao = entrada.nextInt();
                 switch (g_opcao) {
@@ -62,7 +62,7 @@ public class ProjCarrinho {
                     case 3:
                         System.out.println("Remover");
                         break;
-                    case 4:
+                    case 9999:
                         break;
                     default:
                         System.out.println("\nOpção inválida.\n");
